@@ -1,0 +1,39 @@
+.box-center {
+	align-items: center;
+    justify-content: center;
+}
+
+.mdl-layout__content {
+	padding: 24px;
+	flex: none;
+	height:90%;
+}
+
+.demo-layout-transparent {
+  background-color: #006be5;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+.box-content{
+  		margin:10px;
+  		padding: 25px;
+  		background-color:white;
+  		border-radius: 25px;
+  		min-height: 85%;
+  	}
+  	.box-content > .title-content{
+  		font-size:18px;
+  		font-weight: bold;
+  		margin-bottom:20px;
+  		padding-top: 10px;
+  		padding-bottom:30px;
+  		padding-left:5px;
+  		border-bottom: 1px dashed gray;
+  	}
+  	.box-content > .main-content{
+  		padding:5px;
+  	}
